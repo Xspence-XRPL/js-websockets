@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Runtime files
+.env
+.env.*.local
+.pid
+
+# Build output
+dist/
+coverage/
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Packaged files
+*.tgz

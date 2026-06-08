@@ -1,0 +1,35 @@
+{
+  "name": "Js_Websockets",
+  "version": "1.0.0",
+  "description": "Minimal, runnable JavaScript WebSocket examples for XRPL and Xahau networks (streams, ledger, transactions, order-book).",
+  "main": "ledgerStream.js",
+  "type": "module",
+  "scripts": {
+    "test": "concurrently \"node xahau/src/ledgerStream.js\" \"node xrpl/src/ledgerStream.js\"",
+    "xahau:ledger": "node xahau/src/ledgerStream.js",
+    "xrpl:ledger": "node xrpl/src/ledgerStream.js",
+    "xahau:account": "node xahau/src/accountStream.js",
+    "xrpl:account": "node xrpl/src/accountStream.js"
+  },
+  "dependencies": {
+    "xahau": "^4.0.4",
+    "xrpl": "^5.0.0",
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "xrpl",
+    "xahau",
+    "websockets",
+    "ledger",
+    "streaming"
+  ],
+  "author": "Xspence",
+  "contributors": [
+    "Handy_4ndy"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xspence/Js-Websockets.git"
+  }
+}
