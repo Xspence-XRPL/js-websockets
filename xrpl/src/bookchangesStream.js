@@ -1,13 +1,5 @@
 import { Client } from 'xrpl';
 
-/*
-Book changes stream monitors order book changes across all trading pairs.
-Since book_changes stream requires ledger index, we subscribe to ledger stream
-and request book changes for each new validated ledger.
-
-https://xrpl.org/docs/references/http-websocket-apis/public-api-methods/subscription-methods/subscribe#book-changes-stream
-*/
-
 // Connect to XRPL and stream book changes
 const client = new Client('wss://s2.ripple.com');
 
