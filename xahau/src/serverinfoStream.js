@@ -1,12 +1,5 @@
 import { Client } from 'xahau';
 
-/*
-Server info stream monitors server information for each validated ledger.
-We subscribe to ledger stream and request server_info for each new validated ledger.
-
-https://xahau.network/docs/features/http-websocket-apis/public-api-methods/
-*/
-
 // Connect to Xahau and stream server info
 const client = new Client('wss://xahau.network');
 
