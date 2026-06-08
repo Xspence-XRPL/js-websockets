@@ -1,13 +1,5 @@
 import { Client } from 'xrpl';
 
-/*
-The ledger stream only sends ledgerClosed messages when the consensus process declares a new
-validated ledger. The message identifies the ledger and provides some information about its
-contents. 
-
-https://xrpl.org/docs/references/http-websocket-apis/public-api-methods/subscription-methods/subscribe#ledger-stream
-*/
-
 // Connect to XRPL and stream validated ledgers
 const client = new Client('wss://s2.ripple.com');
 
