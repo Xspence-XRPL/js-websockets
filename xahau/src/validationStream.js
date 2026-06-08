@@ -1,6 +1,6 @@
 import { Client } from 'xahau';
 
-// Connect to Xahau and stream validation messages
+// Connect to Xahau and stream validation messages 
 const client = new Client('wss://xahau.network');
 
 async function main() {
