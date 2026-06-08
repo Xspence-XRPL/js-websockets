@@ -1,13 +1,5 @@
 import { Client } from 'xahau';
 
-/*
-Order book streams monitor specific trading pairs for order book changes.
-Sends transaction messages whenever a transaction affects the monitored order book.
-Subscribed to XAH/EVR order book to receive updates.
-
-https://xahau.network/docs/features/http-websocket-apis/public-api-methods/
-*/
-
 // Connect to Xahau and stream order book changes
 const client = new Client('wss://xahau.network');
 
