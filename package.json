@@ -1,5 +1,5 @@
 {
-  "name": "Js_Websockets",
+  "name": "js_websockets",
   "version": "1.0.0",
   "description": "Minimal, runnable JavaScript WebSocket examples for XRPL and Xahau networks (streams, ledger, transactions, order-book).",
   "main": "ledgerStream.js",
