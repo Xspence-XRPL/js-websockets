@@ -1,6 +1,6 @@
 import { Client } from 'xahau';
 
-// Connect to Xahau and stream consensus phase changes
+// Connect to Xahau and stream consensus phase changes 
 const client = new Client('wss://xahau.network');
 
 async function main() {
