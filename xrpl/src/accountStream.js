@@ -1,13 +1,5 @@
 import { Client } from 'xrpl';
 
-/*
-Account stream monitors a specific account for validated transactions.
-Sends transaction messages whenever a transaction affects the monitored account.
-Subscribed to the RLUSD account to receive updates.
-
-https://xrpl.org/docs/references/http-websocket-apis/public-api-methods/subscription-methods/subscribe#accounts
-*/
-
 // Connect to XRPL and stream account transactions
 const client = new Client('wss://s2.ripple.com');
 
