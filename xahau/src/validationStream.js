@@ -1,12 +1,5 @@
 import { Client } from 'xahau';
 
-/*
-Validations stream monitors validation messages (votes) from Xahau validators.
-Sends messages whenever the server receives a validation message during consensus.
-
-https://xahau.network/docs/features/http-websocket-apis/public-api-methods/
-*/
-
 // Connect to Xahau and stream validation messages
 const client = new Client('wss://xahau.network');
 
