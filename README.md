@@ -57,8 +57,8 @@ npm install
 Clone the repository and install Node dependencies:
 
 ```bash
-git clone <your-repo-url>
-cd Js-Websockets
+git clone https://github.com/Xspence-XRPL/js-websockets.git
+cd js-websockets
 npm install
 ```
 
