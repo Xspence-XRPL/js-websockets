@@ -1,12 +1,5 @@
 import { Client } from 'xrpl';
 
-/*
-Consensus stream monitors consensus phase changes during the XRPL consensus process.
-Sends messages when the server changes phase in the consensus cycle.
-
-https://xrpl.org/docs/references/http-websocket-apis/public-api-methods/subscription-methods/subscribe#consensus-stream
-*/
-
 // Connect to XRPL and stream consensus phase changes
 const client = new Client('wss://s2.ripple.com');
 
