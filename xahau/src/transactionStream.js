@@ -1,12 +1,5 @@
 import { Client } from 'xahau';
 
-/*
-Transaction stream monitors all validated transactions on the Xahau network.
-Sends transaction messages whenever any transaction is included in a validated ledger.
-
-https://xahau.network/docs/features/http-websocket-apis/public-api-methods/
-*/
-
 // Connect to Xahau and stream all transactions
 const client = new Client('wss://xahau.network');
 
