@@ -1,12 +1,5 @@
 import { Client } from 'xrpl';
 
-/*
-Transaction stream monitors all validated transactions on the XRPL network.
-Sends transaction messages whenever any transaction is included in a validated ledger.
-
-https://xrpl.org/docs/references/http-websocket-apis/public-api-methods/subscription-methods/subscribe#transaction-streams
-*/
-
 // Connect to XRPL and stream all transactions
 const client = new Client('wss://s2.ripple.com');
 
