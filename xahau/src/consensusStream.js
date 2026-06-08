@@ -1,12 +1,5 @@
 import { Client } from 'xahau';
 
-/*
-Consensus stream monitors consensus phase changes during the Xahau consensus process.
-Sends messages when the server changes phase in the consensus cycle.
-
-https://xahau.network/docs/features/http-websocket-apis/public-api-methods/
-*/
-
 // Connect to Xahau and stream consensus phase changes
 const client = new Client('wss://xahau.network');
 
