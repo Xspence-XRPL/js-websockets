@@ -1,12 +1,5 @@
 import { Client } from 'xrpl';
 
-/*
-Server info stream monitors server information for each validated ledger.
-We subscribe to ledger stream and request server_info for each new validated ledger.
-
-https://xrpl.org/docs/references/http-websocket-apis/public-api-methods/server-info-methods/server_info/
-*/
-
 // Connect to XRPL and stream server info
 const client = new Client('wss://s2.ripple.com');
 
