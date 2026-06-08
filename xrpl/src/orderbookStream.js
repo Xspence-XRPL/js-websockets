@@ -1,13 +1,5 @@
 import { Client } from 'xrpl';
 
-/*
-Order book streams monitor specific trading pairs for order book changes.
-Sends transaction messages whenever a transaction affects the monitored order book.
-Subscribed to XRP/RLUSD order book to receive updates.
-
-https://xrpl.org/docs/references/http-websocket-apis/public-api-methods/subscription-methods/subscribe#order-book-streams
-*/
-
 // Connect to XRPL and stream order book changes
 const client = new Client('wss://s2.ripple.com');
 
