@@ -1,13 +1,5 @@
 import { Client } from 'xahau';
 
-/*
-Account stream monitors a specific account for validated transactions.
-Sends transaction messages whenever a transaction affects the monitored account.
-Subscribed to the EVR Issuer account to receive updates.
-
-https://xahau.network/docs/features/http-websocket-apis/public-api-methods/
-*/
-
 // Connect to Xahau and stream account transactions
 const client = new Client('wss://xahau.network');
 
