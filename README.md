@@ -1,11 +1,10 @@
 
-# XRPL & Xahau WebSocket Examples
+# js-websockets
 
+[![Node.js](https://img.shields.io/node/v/xrpl.svg)](https://nodejs.org/)
 [![XRPL:v xrpl](https://img.shields.io/npm/v/xrpl.svg)](https://www.npmjs.com/package/xrpl)
 [![Xahau:v xahau](https://img.shields.io/npm/v/xahau.svg)](https://www.npmjs.com/package/xahau)
-[![Audit: 0 vulnerabilities](https://img.shields.io/badge/audit-0%20vulnerabilities-brightgreen.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Node.js](https://img.shields.io/node/v/xrpl.svg)](https://nodejs.org/)
 
 This repository provides two small, focused example sets for exploring WebSocket streaming APIs used by XRPL-compatible ledgers:
 
